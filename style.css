@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: #FFFFFF;
+    height: 60px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 200px;
+}
+
+.logo p{
+    font-family: 'lato' sans-serif;
+}
+
+.menus{
+    width: 400px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+.menus a {
+    margin-left: 10px;
+    font-family: 'lato' sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menus a:hover{
+    border:#ec5242 2px solid;
+}
+
+.navbar{
+    background-color:#272a31;
+    height:30px;
+    width: 100%;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;    
+    padding-top: 100px;
+    background-image: url(mobile_intro_bg.png);
+    background-size: 100%;
+}
+
+.container1 p {
+    margin-left: 300px;
+    font-family: 'lato' sans-serif;
+}
+
+.welcome{
+    color: #ec5242;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.Comstas{
+    color: #ec5242;
+    font-size: 60px;
+    width: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.lahore{
+    color: #ec5242;
+    margin-top: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text-para{
+    width:750px;
+    background-color: rgb(239, 227, 210);
+    border-color: white;
+}
+
+.text{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
