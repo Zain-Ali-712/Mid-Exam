@@ -19,30 +19,54 @@ header{
 }
 
 .logo p{
-    font-family: 'lato' sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'lato' , sans-serif;
 }
 
 .menus{
-    width: 400px;
-    margin-left: 350px;
+    width: 500px;
+    margin-left: 300px;
     margin-top: 20px;
 }
 
 .menus a {
-    margin-left: 10px;
-    font-family: 'lato' sans-serif;
+    margin-left: 14px;
+    font-family: 'lato' , sans-serif;
     text-decoration: none;
     padding: 10px;
 }
 
 .menus a:hover{
-    border:#ec5242 2px solid;
+    border:#ec5242 5px solid;
 }
 
 .navbar{
+    display: flex;
     background-color:#272a31;
     height:30px;
     width: 100%;
+}
+
+.nav-menus{
+    margin-top: 5px;
+    margin-left:780px;
+}
+
+.navbar a img{
+    width: 16px;
+}
+
+
+.navbar a{
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-top: 7px;
+    text-decoration: none;
+    font-family: 'lato' , sans-serif;
+    font-size: 13px;
 }
 
 .container1{
@@ -51,22 +75,24 @@ header{
     flex-direction: column;
     text-align: left;    
     padding-top: 100px;
-    background-image: url(mobile_intro_bg.png);
-    background-size: 100%;
-}
-
-.container1 p {
-    margin-left: 300px;
-    font-family: 'lato' sans-serif;
+    background-image: url(bg2-img.jpg);
+    background-repeat: no-repeat;
+    background-size :100%;
+    padding-bottom: 120px;
+    margin-bottom: 0px;
 }
 
 .welcome{
+    margin-left: 300px;
+    font-family: 'lato', sans-serif;
     color: #ec5242;
     font-size: 30px;
     margin-bottom: 0px;
 }
 
 .Comstas{
+    margin-left: 300px;
+    font-family: 'lato', sans-serif;
     color: #ec5242;
     font-size: 60px;
     width: 60px;
@@ -76,6 +102,8 @@ header{
 }
 
 .lahore{
+    margin-left: 300px;
+    font-family: 'lato', sans-serif;
     color: #ec5242;
     margin-top: 0px;
     font-size: 40px;
@@ -83,23 +111,246 @@ header{
 }
 
 .text-para{
-    width:750px;
-    background-color: rgb(239, 227, 210);
-    border-color: white;
+    margin-left: 300px;
+    width:500px;
+    background-color: rgb(240, 239, 237);
+    border: whitesmoke;
 }
 
 .text{
-    text-align: left;
     font-size: 14px;
-    margin-top: 0px;
+    margin: 20px;
+    color: #666562;
+    font-family: 'lato' , sans-serif;
+}
+
+.since{
+    padding-top: 20px;
+    margin-left: 300px;
+    font-family: 'lato' , sans-serif;
+    color: #666562;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.visit{
+    margin-left: 300px;
+    font-family: 'lato' ,sans-serif;
+    color: #666562;
+    padding-top: 0px;
+    font-size: 14px;
+}
+
+.container2{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #272a31;
+}
+
+.dep-head{
+    text-align: center;
+    font-family: 'lato' ,sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 7px;
+}
+
+.container2 hr{
+    margin-bottom: 50px;
+    width: 80px;
+    color: #ec5242;
+}
+
+.container2 a {
+    padding: 80px 0px;
+    text-align: center;
+    font-family: 'lato' ,sans-serif;
+    color: white;
+}
+
+.depart-cont{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.departments{
+    width: 15%;
+    margin-left: 4px;
+    background-color: #484744;
+}
+
+.icons{
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 50px;
+}
+
+.dep-name{
+    text-align: center;
+    font-family: 'lato' ,sans-serif;
+    color: white;
+    padding: 4px;
+    color: #ec5242;
+}
+
+.dep-info{
+    text-align: center;
+    font-family: 'lato' ,sans-serif;
+    color: white;
+    padding:2px 14px;
+}
+
+.fac-head{
+    text-align: center;
+    font-family: 'lato' ,sans-serif;
+    color:#272a31;
+    font-size: 25px;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 7px;
+}
+
+.container3 hr{
+    margin-bottom: 50px;
+    width: 80px;
+    color: #ec5242;
 }
 
 
+.faculty {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 50px;
+    justify-content: center;
+}
+
+.faculty-box{
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+.fac-members{
+    display: flex;
+    width: 400px;
+}
+
+.content{
+    padding-left: 20px;
+    font-family: 'lato' ,sans-serif;
+    color:#272a31;
+}
+
+.content h3{
+    font-family: 'lato' ,sans-serif;
+    color:#272a31;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.rank{
+    margin-top: 0px;
+    font-style: italic;
+    font-size: small;
+    font-family: 'lato' ,sans-serif;
+    color:#ec5242;
+}
+
+.disc{
+    margin-top: 0px;
+    font-family: 'lato' ,sans-serif;
+    color:#666562;
+}
+
+.content hr{
+    width: 7%;
+    margin:10px 0px 10px 20px;
+}
 
 
+.imges img{
+    padding-top: 20px;
+    width: 120px;
+}
 
+.campus{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: #272a31;
+}
 
+.campus h3{
+    font-family: 'lato' ,sans-serif;
+    color:#666562;
+    font-weight: 1000;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
 
+.camp-names {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 200px 10px;
+}
 
+.campus hr{
+    width: 5%;
+    margin-bottom: 0px;
+}
 
+.camp-names p{
+    color:#666562;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: 'lato' ,sans-serif;
+}
 
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-foot{
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    height: 80px;
+    width: 350px;
+    float: left;
+}
+
+.logo-foot p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'lato' , sans-serif;
+}
+
+.foot-cont{
+    padding: 60px 70px;
+    width: 40%;
+    display: flex;
+    font-weight: 500;
+    color: #666562;
+    font-family: 'lato' , sans-serif;
+}
+
+.foot-cont p{
+    margin-top: 20px;
+}
