@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:gray;
+}
+
+header{
+    width: 100%;
+    background: #FFFFFF;
+    height: 60px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 200px;
+}
+
+.logo p{
+    font-family: 'lato' sans-serif;
+}
+
+.menus{
+    width: 400px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+.menus a {
+    margin-left: 10px;
+    font-family: 'lato' sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menus a:hover{
+    border:#ec5242 2px solid;
+}
+
+.navbar{
+    background-color:#272a31;
+    height:30px;
+    width: 100%;
+}
+
+
+
+
+
+
+
